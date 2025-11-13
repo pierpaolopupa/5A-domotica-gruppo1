@@ -1,7 +1,7 @@
 package domotica;
 
+import java.io.*;
 import java.net.*; 
-import java.io.*; 
 class ServerThread extends Thread { 
   ServerSocket server      = null;
   Socket client            = null;
